@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LearnDroid</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="links">
+        <item>Hyperpolyglot hyperpolyglot.org</item>
+        <item>Stackoverflow http://stackoverflow.com</item>
+        <item>Learnxinyminutes http://learnxinyminutes.com</item>
+        <item>Robocraft http://robocraft.ru/</item>
+        <item>Cxem_net http://cxem.net/uprav/uprav.php</item>
+        <item>Instructables http://www.instructables.com/tag/type-id/category-technology/</item>
+        <item>Zelectro http://zelectro.cc</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="entries">
+        <item>ru-RU</item>
+        <item>en-US</item>
+    </string-array>
+    <string-array name="titles">
+        <item>About programming</item>
+        <item>Brief history</item>
+        <item>Modern programming</item>
+        <item>Control structures</item>
+        <item>Robotics</item>
+        <item>Components</item>
+        <item>Microcontroller</item>
+    </string-array>
+    <string-array name="images">
+        <item>programming</item>
+        <item>history</item>
+        <item>modern</item>
+        <item>control</item>
+        <item>robotics</item>
+        <item>component</item>
+        <item>microc</item>
+    </string-array>
+    <string-array name="item_content">
+        <item>
+<![CDATA[
+		<p>\t<h1>Computer programming</h1>\t<b>Computer programming</b> (often shortened to programming) is a process that leads from an original formulation of a computing problem to executable computer programs. Programming involves activities such as analysis, developing understanding, generating algorithms, verification of requirements of algorithms including their correctness and resources consumption, and implementation (commonly referred to as coding) of algorithms in a target programming language.</p>
+<p>\t<b>Source code</b> is written in one or more programming languages (such as C, C++, C#, Objective-C, Java, Python, Ruby, Smalltalk,JavaScript, etc.). The purpose of programming is to find a sequence of instructions that will automate performing a specific task or solving a given problem. The process of programming thus often requires expertise in many different subjects, including knowledge of the application domain, specialized algorithms and formal logic.</p>
+		]]>
+        </item>
+        <item>
+<![CDATA[  <p>\t<h1>History</h1>\tThe invention of the von Neumann architecture allowed computer programs to be stored in computer memory. Early programs had to be painstakingly crafted using the instructions (elementary operations) of the particular machine, often in binarynotation. Every model of computer would likely use different instructions (machine language) to do the same task.</p>
+<p>\tIn 1954 FORTRAN was invented. It was the first widely-used high level programming language to have a functional implementation, as opposed to just a design on paper. Programs were mostly still entered using punched cards or paper tape.  By the late 1960s, data storage devices and computer terminals became inexpensive enough that programs could be created by typing directly into the computers. Text editors were developed that allowed changes and corrections to be made much more easily than with punched cards.</p>
+<p>\tAs time has progressed, computers have made giant leaps in the area of processing power. This has brought about newer programming languages that are more abstracted from the underlying hardware.Although these high-level languages usually incur greater overhead, the increase in speed of modern computers has made the use of these languages much more practical than in the past. However, high-level languages are still impractical for a few programs, such as those where low-level hardware control is necessary or where maximum processing speed is vital. Computer programming has become a popular career in the developed world, particularly in the United States, Europe, and Japan.<p>
+			]]>
+        </item>
+        <item></item>
+        <item>
+<![CDATA[
+          <p><h1>\tControl structures</h1>\tPrograms written in procedural languages, the most common kind, are like recipes, having lists of ingredients and step-by-step instructions for using them. The three basic control structures in virtually every procedural language are:</p>
+<p>\t1. Sequence—combine the liquid ingredients, and next add the dry ones.</p>
+<p>\t2. Conditional—if the tomatoes are fresh then simmer them, but if canned, skip this step.</p>
+<p>\t3. Iterative—beat the egg whites until they form soft peaks.</p>
+<p>\t<b>Sequence</b> - is the default control structure; instructions are executed one after another. They might, for example, carry out a series of arithmetic operations, assigning results to variables, to find the roots of a quadratic equation ax2 + bx + c = 0.</p>
+<p>\t<b>The conditional</b> IF-THEN or IF-THEN-ELSE control structure allows a program to follow alternative paths of execution.</p>
+<p>\t<b>Iteration, or looping</b> - gives computers much of their power. They can repeat a sequence of steps as often as necessary, and appropriate repetitions of quite simple steps can solve complex problems.</p>
+]]>
+        </item>
+        <item>
+<![CDATA[
+            <p>\t<h1>Robotics</h1><\p>\t<b>Robotics</b> is the branch of mechanical engineering, electrical engineering and computer science that deals with the design, construction, operation, and application of robots, as well as computer systems for their control, sensory feedback, and information processing.</p>
+<p>\tThe concept of creating machines that can operate autonomously dates back toclassical times, but research into the functionality and potential uses of robots did not grow substantially until the 20th century.</p>
+<p>\t<b>Robotic aspects</b><p>
+<p>\t1. Robots all have some kind of mechanical construction, a frame, form or shape designed to achieve a particular task.<p>
+<p>\t2.Robots have electrical components which power and control the machinery. The electrical aspect of robots is used for movement (through motors), sensing (where electrical signals are used to measure things like heat, sound, position, and energy status) and operation (robots need some level of electrical energy supplied to their motors and sensors in order to activate and perform basic operations) <p>
+<p>\t3. All robots contain some level of computer programming code. A program is how a robot decides when or how to do something. A robot with remote control programing has a preexisting set of commands that it will only perform if and when it receives a signal from a control source, typically a human being with a remote control. <p>
+<p>\t<p>
+
+            
+         ]]>
+        </item>
+        <item>
+<![CDATA[
+           <p>\t<h1>Components</h1><\p>
+<p>\t<b>Power source</b><p>
+<p>\tAt present mostly (lead-acid) batteries are used as a power source. Many different types of batteries can be used as a power source for robots. Potential power sources could be: pneumatic (compressed gases), solar power (using the sun energy and converting it into electrical power), hydraulics (liquids), flywheel energy storage, organic garbage (through anaerobic digestion).<p>
+<p>\t<b>Actuation</b><p>
+<p>\tActuators are like the "muscles" of a robot, the parts which convert stored energyinto movement. By far the most popular actuators are electric motors that spin a wheel or gear, and linear actuators that control industrial robots in factories. But there are some recent advances in alternative types of actuators, powered by electricity, chemicals, or compressed air.<p>
+<p>\t<b>Sensing</b><p>
+<p>\tSensors allow robots to receive information about a certain measurement of the environment, or internal components. This is essential for robots to perform their tasks, and act upon any changes in the environment to calculate the appropriate response.<p>
+          
+         ]]>
+        </item>
+        <item>
+<![CDATA[
+        <p>\t<h1>Microcontroller </h1><\p>
+<p>\t<b>Microcontroller</b> (MCU) is a small computer on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals. Program memory in the form of Ferroelectric RAM, NOR flash or OTP ROM is also often included on chip, as well as a typically small amount of RAM. Microcontrollers are designed for embedded applications, in contrast to the microprocessors used in personal computers or other general purpose applications.<p>
+<p>\t<b>Microcontroller features</b><p>
+<p>\tMicrocontrollers usually contain from several to dozens of general purpose input/output pins (GPIO). GPIO pins are software configurable to either an input or an output state.<p>
+<p>\tMany embedded systems need to read sensors that produce analog signals. This is the purpose of the analog-to-digital converter (ADC). The analog to digital converter is used to convert the incoming data into a form that the processor can recognize. A less common feature on some microcontrollers is a digital-to-analog converter (DAC) that allows the processor to output analog signals or voltage levels.<p>
+<p>\tIn addition to the converters, many embedded microprocessors include a variety of timers as well.  </p>
+
+<p>\tUniversal Asynchronous Receiver/Transmitter (UART) block makes it possible to receive and transmit data over a serial line with very little load on the CPU. Dedicated on-chip hardware also often includes capabilities to communicate with other devices (chips) in digital formats such as I²C and Serial Peripheral Interface (SPI).</p>  
+         ]]>
+        </item>
+    </string-array>
+
+</resources>

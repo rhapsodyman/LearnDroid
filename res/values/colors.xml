@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="myBackGround">#3949AB</color>
+    <color name="colorPrimary">#1A237E</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+    <color name="buttons_gradient_start">#1b333e</color>
+    <color name="buttons_gradient_end">#818f95</color>
+    <color name="frame_gradient_start">#0a011d</color>
+    <color name="frame_gradient_end">#1b333e</color>
+    <color name="program_gradient_start">#170d07</color>
+    <color name="program_gradient_end">#74492b</color>
+    <color name="frame">#b4b4b4</color>
+    <color name="frame_solid">#555454</color>
+    <color name="frame_background">#cdcccc</color>
+    <color name="light_gray_header_color">#646663</color>
+
+</resources>

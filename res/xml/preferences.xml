@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Common Preferences" >
+        <EditTextPreference
+            android:defaultValue="98:D3:31:40:10:ED"
+            android:key="MAC_address"
+            android:summary="car MAC address"
+            android:title="MAC address" />
+        <EditTextPreference
+            android:defaultValue="200"
+            android:key="def_speed"
+            android:summary="Speed for arrows control"
+            android:title="Default speed value" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Accelerometer Control" >
+        <EditTextPreference
+            android:defaultValue="120"
+            android:key="Min_PWM"
+            android:summary="Minimum PWM value to start rotating"
+            android:title="Min PWM value" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:key="interval"
+            android:summary="Time interval between succesive commands (ms)"
+            android:title="Accelerometer time interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Speech recognition Control" >
+        <ListPreference
+            android:entries="@array/entries"
+            android:entryValues="@array/entries"
+            android:key="language"
+            android:summary="Default language model to use"
+            android:title="Language model (ru-RU/en-US)" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
